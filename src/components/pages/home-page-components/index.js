@@ -5,3 +5,5 @@ export * from "./categories";
 export * from "./testominal";
 export * from "./organic";
 export * from "./eco"
+export * from "./meals"
+export * from "./news"

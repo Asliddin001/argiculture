@@ -7,4 +7,6 @@ export {
   Testominal,
   Organic,
   Eco,
+  Meals,
+  News,
 } from "./pages";

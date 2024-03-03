@@ -4,6 +4,8 @@ import {
   Categories,
   Eco,
   Hero,
+  Meals,
+  News,
   Offer,
   Organic,
   Testominal,
@@ -19,6 +21,8 @@ export const Home = () => {
       <Testominal />
       <Organic />
       <Eco />
+      <Meals />
+      <News />
     </div>
   );
 };
