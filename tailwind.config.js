@@ -24,6 +24,7 @@ export default {
           4: "#F1F8F4",
         },
         SeaLettuce: "#68A47F",
+        SummerSky: "#37B5DE",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],

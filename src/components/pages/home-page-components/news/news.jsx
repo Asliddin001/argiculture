@@ -18,11 +18,11 @@ export const News = () => {
             More News
           </Button>
         </div>
-        <div className="boxs flex justify-between ">
-          <div className="box bg-[url('/mock-imges/news-1.png')] w-[791px] h-[530px] bg-contain bg-no-repeat p-[45px]">
+        <div className="boxs flex justify-between">
+          <div className="box bg-[url('/imges/news-1.png')] w-[800px] border-2 border-red-500 h-[530px] bg-cover bg-no-repeat p-[45px]">
             <Data />
             <div className="bg-white w-[613px] px-[47px] py-[46px] rounded-[30px] mt-[255px] rounded-tl-[31px] rounded-tr-[34px] rounded-bl-[30px] rounded-br-[30px] shadow-md ">
-              <div className="flex gap-[3px] items-center border-[1px] border-red-500">
+              <div className="flex gap-[3px] items-center ">
                 <Profile />
                 <p className="text-[18px] leading-[21px]">By Rachi Card</p>
               </div>
@@ -40,7 +40,7 @@ export const News = () => {
               </Button>
             </div>
           </div>
-          {/* <div className="box bg-[url('/mock-imges/news-2.png')] w-[791px] h-[530px] bg-contain bg-no-repeat p-[45px]">
+          {/* <div className="box bg-[url('/imges/news-2.png')] w-[791px] h-[530px] bg-contain bg-no-repeat p-[45px]">
             <Data />
           </div> */}
         </div>

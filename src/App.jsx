@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import { About, Home, Shop, ShopSingle } from "./pages";
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 
-function App() {
+export const App = () => {
   return (
     <>
       <Navbar />
@@ -12,8 +12,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop-single" element={<ShopSingle />} />
       </Routes>
+      <Footer />
     </>
   );
-}
-
-export default App;
+};

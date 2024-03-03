@@ -4,7 +4,7 @@ import { Arrow, Button } from "../../../common";
 export const Hero = () => {
   return (
     <>
-      <header className="w-full h-screen flex flex-col bg-[url('/mock-imges/hero.jpeg')] bg-cover bg-center">
+      <header className="w-full h-screen flex flex-col bg-[url('/imges/hero.jpeg')] bg-cover bg-center">
         <div className="container">
           <div className="my-[246px] mx-[120px]">
             <h4 className="font-yellowtail italic text-SeaLettuce">

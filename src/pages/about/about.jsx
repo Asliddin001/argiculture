@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import { Hero } from "../../components/common";
 
 export const About = () => {
   return (
-    <div>
-      <h1>hello wordl</h1>
-    </div>
-  )
-}
+    <>
+      <Hero content="About us" backgroundImg="/imges/about-hero.png" />
+    </>
+  );
+};

@@ -1,12 +1,12 @@
 import React from "react";
-import profile from "/mock-imges/tetominal-profile.png";
+import profile from "/imges/tetominal-profile.png";
 import { Star } from "../../../common";
 import { testimonialData } from "../../../../data/data";
 
 export const Testominal = () => {
   return (
     <>
-      <div className="mt-[200px] bg-[url('/mock-imges/bakcground-testominal.png')] bg-cover bg-center w-full h-screen px-[165px]">
+      <div className="mt-[200px] bg-[url('/imges/bakcground-testominal.png')] bg-cover bg-center w-full h-screen px-[165px]">
         <div className="container">
           <div className="flex flex-col justify-center items-center mt-[165px]">
             <span className="font-yellowtail text-[36px] text-SeaLettuce">

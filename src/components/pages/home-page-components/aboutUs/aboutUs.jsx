@@ -1,5 +1,5 @@
 import React from "react";
-import aboutUsImg from "/mock-imges/aboutUs.png";
+import aboutUsImg from "/imges/aboutUs.png";
 import { Arrow, Button, OrganicIcon1, OrganicIcon2 } from "../../../common";
 
 const data = [

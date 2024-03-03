@@ -1,7 +1,7 @@
 import React from "react";
-import meal_1 from "/mock-imges/meal-1.png";
-import meal_2 from "/mock-imges/meal-2.png";
-import meal_3 from "/mock-imges/meal-3.png";
+import meal_1 from "/imges/meal-1.png";
+import meal_2 from "/imges/meal-2.png";
+import meal_3 from "/imges/meal-3.png";
 export const Meals = () => {
   return (
     <div className="bg-drwhite-4 py-[187px]">
