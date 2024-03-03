@@ -81,17 +81,56 @@ export const testimonialData = [
   },
   {
     id: 2,
-    workPercentage: "100%",
-    workType: "Organic",
+    workPercentage: "285",
+    workType: "Active Product",
   },
   {
     id: 3,
-    workPercentage: "100%",
-    workType: "Organic",
+    workPercentage: "350+",
+    workType: "Organic Orchards",
   },
   {
     id: 4,
-    workPercentage: "100%",
-    workType: "Organic",
+    workPercentage: "25+",
+    workType: "Years of Farming",
+  },
+];
+
+export const organicData = [
+  {
+    id: 1,
+    category: "Vegetable",
+    image: "/mock-imges/organic-1.png",
+    name: "Mung Bean",
+    originalPrice: 20.0,
+    discountedPrice: 11.0,
+    rating: 5,
+  },
+  {
+    id: 2,
+    category: "Vegetable",
+    image: "/mock-imges/organic-2.png",
+    name: "Brown Hazelnut",
+    originalPrice: 20.0,
+    discountedPrice: 12.0,
+    rating: 5,
+  },
+  {
+    id: 3,
+    category: "Vegetable",
+    image: "/mock-imges/organic-3.png",
+    name: "Onion",
+    originalPrice: 20.0,
+    discountedPrice: 17.0,
+    rating: 5,
+  },
+  {
+    id: 4,
+    category: "Cabbage",
+    image: "/mock-imges/organic-4.png",
+    name: "Mung Bean",
+    originalPrice: 20.0,
+    discountedPrice: 11.0,
+    rating: 5,
   },
 ];
