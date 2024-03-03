@@ -1,5 +1,15 @@
 import React from "react";
-import { AboutUs, Categories, Hero, Offer, Testominal } from "../../components";
+import {
+  AboutUs,
+  Categories,
+  Eco,
+  Hero,
+  Meals,
+  News,
+  Offer,
+  Organic,
+  Testominal,
+} from "../../components";
 
 export const Home = () => {
   return (
@@ -9,6 +19,10 @@ export const Home = () => {
       <AboutUs />
       <Categories />
       <Testominal />
+      <Organic />
+      <Eco />
+      <Meals />
+      <News />
     </div>
   );
 };

@@ -21,6 +21,7 @@ export default {
           1: "#e0e0e0",
           2: "#B8B8B8",
           3: "#F1F1F1",
+          4: "#F1F8F4",
         },
         SeaLettuce: "#68A47F",
       },

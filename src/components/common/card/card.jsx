@@ -7,16 +7,18 @@ export const Card = ({ products }) => {
       {products.map((product) => (
         <div
           key={product.id}
-          className="w-[335px]  bg-Doctor px-[30px] py-[17px] rounded-[30px]"
+          className="w-[335px]  bg-Doctor py-[30px] px-[17px] rounded-[30px] "
         >
           <span className="px-[12px] py-[5px] bg-Arapawa text-white text-[15px] font-semibold leading-[20px] rounded-[8px]">
             {product.category}
           </span>
-          <img
-            src={product.image}
-            alt={product.name}
-            className="object-contain mt-[13px]"
-          />
+          <div className="w-full flex justify-center items-center">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="object-contain mt-[13px] "
+            />
+          </div>
           <div className="content">
             <p className="text-20px font-semibold text-Arapawa">
               {product.name}

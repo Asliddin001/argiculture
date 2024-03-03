@@ -15,7 +15,7 @@ export const Button = ({ onClick, variant, children, icon }) => {
   return (
     <button
       onClick={onClick}
-      className={`flex items-center px-[39px] py-[28px] rounded-[16px] text-[20px] font-bold ${getButtonStyle()}`}
+      className={`flex h-[80px] items-center px-[39px] py-[28px] rounded-[16px] text-[20px] font-bold ${getButtonStyle()}`}
     >
       {children}
       {icon && <span className="ml-2">{icon}</span>}
