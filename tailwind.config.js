@@ -6,7 +6,9 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: "0px 162px",
+        padding: {
+          DEFAULT: "",
+        },
       },
       colors: {
         Arapawa: "#274C5B",
@@ -22,6 +24,7 @@ export default {
           2: "#B8B8B8",
           3: "#F1F1F1",
           4: "#F1F8F4",
+          5: "#ECECEC",
         },
         SeaLettuce: "#68A47F",
         SummerSky: "#37B5DE",
@@ -35,5 +38,15 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".container": {
+          padding: "0px 80px ",
+        },
+      };
+
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };

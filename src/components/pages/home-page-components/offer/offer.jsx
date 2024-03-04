@@ -1,6 +1,7 @@
 import React from "react";
 import offer_1 from "/imges/offer-1.png";
 import offer_2 from "/imges/offer-2.png";
+
 export const Offer = () => {
   return (
     <>

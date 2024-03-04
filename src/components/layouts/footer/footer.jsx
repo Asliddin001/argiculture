@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "/imges/logo.png";
+import footerBg from "/imges/footer-bg.png";
 import {
   Button,
   Input,
@@ -14,21 +15,17 @@ export const Footer = () => {
     <div className="container">
       <div className="mt-[400px] flex flex-col items-center justify-center py-12">
         <div className="w-full mb-12 h-[323px] relative flex justify-center items-center border- ">
-          {/* <img
-            src={formBg}
+          <img
+            src={footerBg}
             alt="img"
             className="w-full h-[323px] -z-10 absolute"
-          /> */}
-          <div className="w-[1400px] flex items-center gap-6 py-[110px] px-[71px] bg-SummerSky rounded-[30px] justify-between">
+          />
+          <div className="w-[1400px] flex items-center gap-6 py-[110px] px-[71px]  justify-between">
             <h2 className="text-white text-[50px] w-[357px] text-left font-extrabold">
               Subscribe to our Newsletter
             </h2>
             <form className="flex items-center gap-2">
-              <Input
-                large={true}
-                placeholder="Your Email Address"
-                variant="secondary"
-              />
+              <Input large={true} placeholder="Your Email Address" />
               <Button>Subscribe</Button>
             </form>
           </div>

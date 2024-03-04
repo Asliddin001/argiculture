@@ -1,10 +1,30 @@
 import React from "react";
-import { Arrow, Button, Data, Profile } from "../../../common";
+import { Arrow, Button } from "../../../common";
+import { NewsBox } from "./newsBox";
+
+const newsData = [
+  {
+    id: 1,
+    name: "By Rachi Card",
+    title: "The Benefits of Vitamin D & How to Get It",
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+    imageUrl: "/imges/news-1.png",
+  },
+  {
+    id: 2,
+    name: "By Rachi Card",
+    title: "Our Favourite Summertime Tommeto",
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+    imageUrl: "/imges/news-2.png",
+  },
+];
 
 export const News = () => {
   return (
     <>
-      <div className="container">
+      <div className="container h-[945px] overflow-hidden">
         <div className="news flex items-end justify-between mb-[45px]">
           <div className="">
             <span className="font-yellowtail text-[36px] leading-[49px] text-SeaLettuce italic">
@@ -18,31 +38,10 @@ export const News = () => {
             More News
           </Button>
         </div>
-        <div className="boxs flex justify-between">
-          <div className="box bg-[url('/imges/news-1.png')] w-[800px] border-2 border-red-500 h-[530px] bg-cover bg-no-repeat p-[45px]">
-            <Data />
-            <div className="bg-white w-[613px] px-[47px] py-[46px] rounded-[30px] mt-[255px] rounded-tl-[31px] rounded-tr-[34px] rounded-bl-[30px] rounded-br-[30px] shadow-md ">
-              <div className="flex gap-[3px] items-center ">
-                <Profile />
-                <p className="text-[18px] leading-[21px]">By Rachi Card</p>
-              </div>
-              <div>
-                <h6 className="text-[25px] text-Arapawa font-extrabold leading-[29px] mt-[15px]">
-                  The Benefits of Vitamin D & How to Get It
-                </h6>
-                <p className="text-[18px] text-CityRain">
-                  Simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum
-                </p>
-              </div>
-              <Button variant="primary" icon={<Arrow />}>
-                Read More
-              </Button>
-            </div>
-          </div>
-          {/* <div className="box bg-[url('/imges/news-2.png')] w-[791px] h-[530px] bg-contain bg-no-repeat p-[45px]">
-            <Data />
-          </div> */}
+        <div className="flex gap-[45px]">
+          {newsData.map((newsItem) => (
+            <NewsBox key={newsItem.id} {...newsItem} />
+          ))}
         </div>
       </div>
     </>

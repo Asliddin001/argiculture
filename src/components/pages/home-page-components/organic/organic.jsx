@@ -5,7 +5,7 @@ import { organicData } from "../../../../data/data";
 
 export const Organic = () => {
   return (
-    <div className="bg-Arapawa w-full pt-[200px]">
+    <div className="bg-Arapawa w-full py-[200px]">
       <div className="container">
         <div className="organic flex justify-between">
           <div className="">

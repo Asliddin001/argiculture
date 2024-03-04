@@ -3,8 +3,8 @@ import React from "react";
 export const Eco = () => {
   return (
     <>
-      <div className="bg-[url('/imges/eco-bg.jpg')] bg-cover w-[55%] h-screen">
-        <div className="container relative">
+      <div className="bg-[url('/imges/eco-bg.jpg')] bg-cover w-[55%] h-screen ">
+        <div className="container  relative">
           <div className="w-[789px] h-[735px] py-[78px] px-[89px] absolute top-[100px] left-[75%]  bg-white rounded-[30px]">
             <span className="font-yellowtail italic text-[36px] font-normal leading-[49px] text-SeaLettuce">
               Eco Friendly

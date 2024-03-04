@@ -9,4 +9,8 @@ export {
   Eco,
   Meals,
   News,
+  AboutContent,
+  ChooseUs,
+  Experts,
+  WhatOffer,
 } from "./pages";

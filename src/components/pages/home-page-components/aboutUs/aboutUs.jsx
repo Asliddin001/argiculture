@@ -11,7 +11,7 @@ const data = [
       " Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
   },
   {
-    id: 1,
+    id: 2,
     icon: <OrganicIcon2 />,
     title: "Quality Standards",
     content:
@@ -29,15 +29,19 @@ export const AboutUs = () => {
           </div>
           <div className="content">
             <div>
-              <span>About Us</span>
-              <h2>We Believe in Working Accredited Farmers</h2>
-              <p>
+              <span className="font-yellowtail italic text-[36px] text-SeaLettuce">
+                About Us
+              </span>
+              <h2 className="text-[50px] text-Arapawa font-bold">
+                We Believe in Working Accredited Farmers
+              </h2>
+              <p className="">
                 Simply dummy text of the printing and typesetting industry.
                 Lorem had ceased to be the industry's standard dummy text ever
                 since the 1500s, when an unknown printer took a galley.
               </p>
             </div>
-        <div className="flex flex-col gap-[30px] my-[46px]">
+            <div className="flex flex-col gap-[30px] my-[46px]">
               {data.map((item) => (
                 <div key={item.id} className="w-[564px] box flex gap-[20px]">
                   {item.icon}
