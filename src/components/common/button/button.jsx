@@ -7,6 +7,8 @@ export const Button = ({ onClick, variant, children, icon }) => {
         return "bg-FunkyYellow text-Arapawa ";
       case "secondary":
         return "box-border border-solid border-2 border-gray-700 rounded-lg bg-white";
+      case "thirdy":
+        return "bg-HeavySugar text-Arapawa";
       default:
         return "bg-Arapawa text-white";
     }

@@ -3,7 +3,8 @@ import { Arrow, Button, Data, Profile } from "../../../common";
 export const NewsBox = ({ name, title, description, imageUrl }) => {
   return (
     <div
-      className={`box bg-[url('${imageUrl}')] w-[800px] h-[530px] bg-cover bg-no-repeat p-[45px] z-[100]`}
+      className={`box   w-[800px] h-[530px] bg-cover bg-no-repeat p-[45px] z-[100]`}
+      style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <Data />
       <div

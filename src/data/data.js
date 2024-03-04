@@ -245,3 +245,42 @@ export const cardsData = [
     rating: 5,
   },
 ];
+
+export const shopSingleData = [
+  {
+    id: 1,
+    category: "Vegetable",
+    image: "/imges/card-1.png",
+    name: "Calabrese Broccoli",
+    originalPrice: 20.0,
+    discountedPrice: 13.0,
+    rating: 5,
+  },
+  {
+    id: 2,
+    category: "Fesh",
+    image: "/imges/card-2.png",
+    name: "Fresh Banana Fruites",
+    originalPrice: 20.0,
+    discountedPrice: 14.0,
+    rating: 5,
+  },
+  {
+    id: 3,
+    category: "Millets",
+    image: "/imges/card-3.png",
+    name: "White Nuts",
+    originalPrice: 20.0,
+    discountedPrice: 15.0,
+    rating: 5,
+  },
+  {
+    id: 4,
+    category: "Vegetable",
+    image: "/imges/card-4.png",
+    name: "Vegan Red Tomato",
+    originalPrice: 20.0,
+    discountedPrice: 17.0,
+    rating: 5,
+  },
+];

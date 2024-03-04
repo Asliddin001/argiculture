@@ -10,10 +10,10 @@ export const Meals = () => {
           <img
             src={meal_2}
             alt="meal 2 img"
-            className="ml-[-200px] w-[490px]"
+            className="ml-[-200px] w-[570px]"
           />
-          <img src={meal_3} alt="meal 3 img" className="w-[490px]" />
-          <img src={meal_1} alt="meal 1 img" className="w-[490px]" />
+          <img src={meal_3} alt="meal 3 img" className="w-[570px]" />
+          <img src={meal_1} alt="meal 1 img" className="w-[570px]" />
         </div>
       </div>
     </div>

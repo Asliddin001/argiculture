@@ -9,7 +9,7 @@ const newsData = [
     title: "The Benefits of Vitamin D & How to Get It",
     description:
       "Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
-    imageUrl: "/imges/news-1.png",
+    imageUrl: "/imges/news-card-1.png",
   },
   {
     id: 2,
@@ -17,14 +17,14 @@ const newsData = [
     title: "Our Favourite Summertime Tommeto",
     description:
       "Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
-    imageUrl: "/imges/news-2.png",
+    imageUrl: "/imges/news-card-2.png",
   },
 ];
 
 export const News = () => {
   return (
     <>
-      <div className="container h-[945px] overflow-hidden">
+      <div className="container h-[945px] overflow-hidden mt-[177px]">
         <div className="news flex items-end justify-between mb-[45px]">
           <div className="">
             <span className="font-yellowtail text-[36px] leading-[49px] text-SeaLettuce italic">

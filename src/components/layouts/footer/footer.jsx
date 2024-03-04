@@ -13,7 +13,7 @@ import {
 export const Footer = () => {
   return (
     <div className="container">
-      <div className="mt-[400px] flex flex-col items-center justify-center py-12">
+      <div className="mt-[140px] flex flex-col items-center justify-center py-12">
         <div className="w-full mb-12 h-[323px] relative flex justify-center items-center border- ">
           <img
             src={footerBg}
